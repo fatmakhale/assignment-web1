@@ -1,0 +1,70 @@
+body {
+
+  background-image: linear-gradient(to right, #051937, #192247, #2e2b57, #443466, #5c3c74);
+  font-family: 'Poppins', sans-serif;
+}
+
+.error-message {
+  
+  color: red;
+  font: size 9px;
+
+}
+
+form {
+  width: 300px;
+  margin: 20vh auto 0 auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  font-size: 12px;
+  
+}
+
+form h1 {
+  color: #080808;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  width:100%;
+  color: rgb(0, 0, 0);
+  background-color: rgb(227, 140, 192);
+  border: none;
+  border-radius: 4px;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.alert{
+  text-emphasis-color: red;
+}
+.container #user_label,
+.container #mail_label,
+.container #pass_label,
+.container #pass-repeat_label{
+  position: relative;
+  right: 4px;
+  font-style: italic;
+  font-size: 20px;
+  color: rgb(73, 74, 82);
+}
+.container #username,
+.container #Email,
+.container #password,
+.container #confirm-password{
+  position: relative;
+  right: 4px;
+  font-style: italic;
+  font-size: 17px;
+  border-radius: 4px;
+  color: rgb(75, 10, 155);
+}

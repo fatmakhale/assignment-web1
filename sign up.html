@@ -1,0 +1,74 @@
+<html> 
+    <head> 
+        <meta charset="utf-8">
+         <title> sign up </title> 
+        
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+          <link  rel="stylesheet"  href="stylesheet.css">
+          <script defer src="./index.js"></script>
+          
+          
+    </head>
+    <body>
+      <div class="container">
+        <form id ="signupform" action=""method="post" autocomplete="on" onsubmit="return validateForm()">
+         
+                
+                    <h1 style="text-align:center;">sign up</h1>
+                
+                                      <!--user text box-->
+                
+                  <div class="input-control">
+                    <label for="username"id="user_label">Username:</label><br/>
+                    <input type="text" id="username" onkeypress="textTyping()"  name="username" placeholder="username"  class="input-field" required><br/>
+                    <span id="username-error" class="error-message"></span>
+                    <span id="username-error2" class="error-message"></span>
+                   
+                  
+                  </div>
+      
+
+                
+                                      <!--email text box-->
+                  
+                    <div class="input-control">
+                    <label for="Email" id="mail_label">Email:</label><br/>
+                    <input type="text"name="Email" id="Email" onkeypress="textTyping()" placeholder="name@domain.com"  class="input-field"required><br/>
+                    <span id="email-error" class="error-message"></span>
+                    
+                  
+                </div>
+      
+                  
+                                     <!--password textbox-->
+                  
+                    <div class="input-control">
+                    <label for="password" id="pass_label">Password:</label><br/>
+                    <input type="password"name="password" id="password" onkeypress="textTyping()" placeholder="password"  class="input-field" required><br/>
+                    <span id="password-error" class="error-message"></span>
+                 
+                </div>
+      
+                  
+                                    <!--confirm password textbox-->
+                  
+                    <div class="input-control">
+                    <label for="confirm-password" id="pass-repeat_label">Confirm Password:</label><br/>
+                    <input type="password"name="confirm-password" onkeypress="textTyping()"id="confirm-password" placeholder="confirm password"  class="input-field"required><br/>
+                    <span id="confirm-password-error" class="error-message"></span>
+                 
+                </div>
+      
+                  
+            
+               
+                
+                  <button   type="button" onclick="validateForm()" value="Sign up"><h1>sign up</h1> </button>
+                  
+                  
+        
+            
+        </form>
+    
+    </body>
+    </html> 
